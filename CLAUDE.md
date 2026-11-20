@@ -2,6 +2,9 @@
 
 Las reglas generales de trabajo están en el repo privado `lives-instrucciones` (CLAUDE.md). Este archivo solo describe esta herramienta.
 
+## Estado: reserva (desde el 20/11/2026)
+Avance Textil ya es pantalla propia de Sistemas en el portal (app.lives.com.pe, PCP / Planeamiento · Consultar, «Avance Textl - Hilado Tejeduria Tintoreria»), hecha con el paquete entregado el 20/11/2026. La opción de subir el Excel («Cargar Avance Textil», `cargar.html`) se eliminó del menú del portal: Sistemas toma los datos de su sistema. Este repo, sus dos pantallas y las tablas y funciones `avtex_` de Supabase se conservan sin cambios como reserva, para ajustarla si Sistemas pide algo y mostrarles cómo la necesitamos. No se borra nada sin orden expresa de Christian. Los datos de Supabase quedaron como estaban al migrar; el dato vigente es el de Sistemas.
+
 ## Qué hace
 Avance de hilado, tejeduría y tintorería de PCP: kilos requeridos contra kilos avanzados por grupo de producción, a partir del último corte publicado del reporte `rptplantexfechito`.
 - `index.html` — **tablero** de solo lectura. Todo ponderado (suma de kg avanzados ÷ suma de kg requeridos, nunca promedio de porcentajes):
